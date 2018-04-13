@@ -17,3 +17,7 @@ p {
   text-align: justify;
   padding: 0.5rem 0; 
 }
+
+#second-photo {
+  width: 25%;
+}
