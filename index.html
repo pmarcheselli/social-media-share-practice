@@ -21,6 +21,22 @@
   <meta name="twitter:image" content="https://secretmenus.com/wp-content/uploads/2018/01/bean-burrito-no-cheese.jpeg">
   <meta name="twitter:card" content="summary_large_image">
   
+  <script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+  }(document, "script", "twitter-wjs"));</script>
 </head>
 
 <body>
@@ -36,6 +52,9 @@
   
 </body>
   
+<footer>
+  <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Burritos+are+the+best!">Tweet</a>
+</footer>
 </html>
 
   

@@ -15,14 +15,15 @@ img {
 
 p {
   text-align: justify;
+  margin: 0 1rem;
   padding: 0.5rem 0; 
 }
 
-.second-photo {
-  width: 25%;
+#second-photo {
+  width: 35%;
 }
 
-.share {
+footer {
   text-align: center;
   padding: 1rem 0;
 }
