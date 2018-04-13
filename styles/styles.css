@@ -18,6 +18,11 @@ p {
   padding: 0.5rem 0; 
 }
 
-#second-photo {
+.second-photo {
   width: 25%;
+}
+
+.share {
+  text-align: center;
+  padding: 1rem 0;
 }
